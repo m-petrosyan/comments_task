@@ -2,8 +2,8 @@
 
 ```
 .env.example rename .env
-php artisan key:generate 
 composer i
+php artisan key:generate 
 php artisan migrate --seed 
 npm i
 npm run dev
